@@ -25,8 +25,7 @@ public class AddOddSubtractEven {
             int b = array[i][1];
             if (a == b) {
                 System.out.println(0);
-            }
-            else if (a < b) {
+            } else if (a < b) {
                 int c = b - a;
                 if (c % 2 == 0) {
                     System.out.println(2);
